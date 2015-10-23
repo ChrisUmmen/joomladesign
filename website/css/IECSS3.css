@@ -1,0 +1,104 @@
+ .module_round_box .s5_mod_h3 {
+background:url(../images/internet_explorer/s5_mod_h3.png) repeat-x bottom left;
+}
+
+.module_round_box-dark .s5_mod_h3 {
+background:url(../images/internet_explorer/s5_mod_h3_dark.png) repeat-x bottom left;
+}
+
+#s5_search input {
+background:#0F0F0F;
+margin-top:11px;
+}
+
+#s5_breadcrumb_fonts_wrap {
+padding-bottom:2px;
+}
+
+#login-form #modlgn-remember {
+margin:0px;
+}
+
+#s5_social_wrap1 {
+margin-right:20px;
+}
+
+.s5_mod_h3 {
+display:block;
+}
+
+/*home page override*/
+#s5_pos_top_row2_1, #col1 {
+  background-color: #FFFFFF;
+  border-top: 10px solid #330099;
+}
+
+#s5_pos_top_row2_1, #col1 {
+box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  width:320px !important;
+  height: 900px !important;
+  border-right:1px solid #999;
+  border-left:1px solid #999;
+padding-right: 5px;
+padding-left: 5px;
+}
+#s5_pos_top_row2_1, #col1 {
+  position:relative;
+  left:20px !important;
+}
+#s5_pos_top_row2_2, #col2 {
+  background-color: #EEEEEE;
+border-top: 10px solid #B36B00;
+}
+#s5_pos_top_row2_2, #col2 {
+box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  width:320px !important;
+  height: 900px !important;
+  border-right:1px solid #999;
+  padding-right: 5px;
+padding-left: 5px;
+}
+#s5_pos_top_row2_2, #col2 {
+  position:relative;
+  left:20px !important;
+}
+
+#s5_pos_top_row2_3 {
+  background-color: #FFFFFF; !important;
+  border-top: 10px solid #059867;
+}
+
+#s5_pos_top_row2_3, #col3 {
+box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  width:320px !important;
+  height: 900px !important;
+  border-right:1px solid #999;
+  padding-right: 5px;
+padding-left: 5px;
+}
+#s5_pos_top_row2_3, #col3 {
+  position:relative;
+  left:20px !important;
+}
+/*article style*/
+
+#s5_component_wrap {
+-moz-border-radius:0px !important;
+-webkit-border-radius:0px !important;
+border-radius:0px !important;
+background:#FFFFFF;
+border:solid 0px #FFFFFF;
+border-top:solid 10px #604C3B;
+box-shadow: 1px 0 0 0 #999;
+/*border-top:solid 10px #604C3B;*/
+/*border-right:solid 1px #999;*/
+margin-bottom:14px;
+margin-left:7px;
+margin-right:7px;
+}

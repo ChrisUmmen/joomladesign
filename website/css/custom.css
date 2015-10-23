@@ -1,0 +1,486 @@
+/* Add your own custom css to this file. You may wish to use css !important calls to override css from the template css files.
+----------------------------------------------------------- */
+/*This overrides all of the site font size, color, padding, and margin.*/
+
+#s5_component_wrap {
+  font-size: 1em !important
+}
+
+#s5_body {
+ 
+font-size: .9em !important;
+}
+#s5_body {
+color: #000000 !important;
+}
+h2 {
+  color: #000000 !important;
+  margin-bottom:0px !important;
+  margin-top:0px !important;
+}
+.page-header {
+   padding-bottom: 0px;
+  margin: 0px 0 0px;
+  border-bottom: 0px solid #eeeeee;
+}
+#s5_body { 
+  margin:0em !important;
+}
+
+p  {
+    padding:12.5px;
+	padding-left:0px;
+	padding-right:0px;
+	}
+
+p.submenulinks {
+  margin-top:12.5px;
+  margin-bottom:0px;
+  font-size: 1.1em;
+  font-weight: normal;
+  display: block;
+}
+
+/*This controls table appearance*/
+
+table.fluidtable {
+table-layout:fixed !important;
+  width: 100% !important;
+}
+table.fluidtable table.fluidtable td {
+  width:75px;
+}
+table.fluidtable tr td {
+border:1px solid black !important;
+}
+
+table.fluidtable {
+  text-overflow:ellipsis;
+}
+
+table.fluidtable td {
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+
+table.fluidtable tbody tr:first-child td:nth-child(1) {
+  width: 100px;
+}
+
+/*This controled overlay, no longer used*/
+/*.imagelinkcontainercontainer {width:970px; height:0px !important; overflow: visible;z-index=-10 !important;}
+.imagelinkcontainer {display: inline-block;position: absolute;right: 104px;top:179px;width:auto;}
+.guatemalacoffeefund {position: relative;left:;z-index=100;}
+.imagelinkcontainer2 {display: inline-block;position: absolute;right: 104px;top:427px;width:auto;}
+.boliviaquinoafund {position: relative;left:; z-index=100;}
+.imagelinkcontainer3 {display: inline-block; position: relative;right: 0px;top:390px;width:auto;}*/
+
+/*These manipulate image styles*/
+#s5_component_wrap img {
+  padding: 0px 20px !important;
+  margin:0px 0px 0px 0px !important;
+}
+
+/*This hides the main menu that is included in the vertex template. The default main menu lives right underneath the site banner. */
+
+#s5_menu_wrap {display:none; !important;}
+
+@media only screen and (max-width: 480px) {
+  .custommobileheadingcrop {
+  display: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(http://notrealdomain2.com/newbanner.png) no-repeat;
+  width: 180px; /* Width of new image */
+  height: 236px; /* Height of new image */
+  padding-left: 180px; /* Equal to width of new image */
+  }
+}
+
+/* This hides the logo for mobile*/
+/*@media only screen and (max-width: 480px) {
+#s5_logo_module {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(/images/logo.png) no-repeat;
+  width: 180px; /* Width of new image */
+  height: 236px; /* Height of new image */
+  padding-left: 300px; /* Equal to width of new image */
+}
+  }
+/*@media only screen and (max-width: 480px) {
+.customlogoimagedesktop {
+    display:none;
+  }
+
+
+/* This replaces the logo for mobile*/
+
+
+
+/*This overrides all of the site font size,and color.*/
+
+#s5_body {
+  
+font-size: .9em !important;
+}
+#s5_body {
+color: #000000 !important;
+}
+h2 {
+  color: #000000 !important;
+}
+
+/*This overrides all of the site font style.*/
+#s5_body, #s5_search input, #s5_menu_wrap, .s5_mod_h3, #subMenusContainer, h2, h3 {
+font-family: 'Verdana',Helvetica,Arial,Sans-Serif !important;
+}
+
+/*This hides the breadcrumb module which contains facebook, twitter, linkedin etc. */
+
+#s5_breadcrumb_fonts_wrap {display:none;!important;}
+
+/*This hides the default shape5 logo that lives at the bottom of the page.*/
+
+#s5_shape5_logo {display:none;!important;}
+
+
+/*The following controls the headings and the links for the website. Setting the link color in the vertex settings casues article titles as well as links to change colors. Current setting for link colors is left blank allowing this code to override the template.*/
+
+
+h2, .componentheading {
+/*margin: 0;*/
+/*font-weight: bold;*/
+Font-family:;
+/*font-size: 14px;*/
+/*padding-left: 0px;*/
+margin-bottom: 5px;
+text-align: left;
+  !important;
+}
+
+
+h2, .componentheading {
+display: block;
+/*font-size: 2em;*/
+-webkit-margin-before: 0.67em;
+-webkit-margin-after: 0.67em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+    !important;
+}
+
+a:link {
+    color: #24006b;
+    text-decoration: underline;
+}
+a:visited {
+  color: #FF0000;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: underline;
+  color: gold;
+}
+
+/*The following controls the style of the modules on the homepage. pos_top_row2_1 is taken by the menu bar. See IECSS3.css to change the appearance in IE explorer in versions < 9*/
+
+#s5_pos_top_row2_1, #col1 {
+  background-color: #FFFFFF;
+  border-top: 10px solid #330099;
+}
+
+#s5_pos_top_row2_1, #col1 {
+box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  width:;
+  height:980px !important;
+  border-right:1px solid #999;
+  border-left:1px solid #999;
+padding-right: 5px;
+padding-left: 5px;
+}
+
+#s5_pos_top_row2_2, #col2 {
+  background-color: #EEEEEE;
+border-top: 10px solid #B36B00;
+}
+#s5_pos_top_row2_2, #col2 {
+box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  width:;
+  height: 980px !important;
+  border-right:1px solid #999;
+  padding-right: 5px;
+padding-left: 5px;
+}
+
+#s5_pos_top_row2_3 {
+  background-color: #FFFFFF; !important;
+  border-top: 10px solid #059867;
+}
+
+#s5_pos_top_row2_3, #col3 {
+box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  width:;
+  height:980px !important;
+  border-right:1px solid #999;
+  padding-right: 5px;
+padding-left: 5px;
+}
+
+/*The following controls clickable tables*/
+/*td a{width:100%;display:block;}*/
+
+how_to_help {
+  cursor:hand;
+}
+
+
+/*
+#container {
+  height: 125px;
+  text-align: justify;
+  border: 10px solid black;
+  font-size: 0.1px; /* IE 9/10 don't like font-size: 0; 
+  min-width: 600px;
+}
+#container div {
+  width: 150px;
+  height: 125px;
+  display: inline-block;
+  background: red;
+}
+#container:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works 
+  display: inline-block;
+}
+*/
+/*float: left;*/
+/*height: 850px !important;
+height: 850px;
+width: auto;
+margin-bottom: 1em;
+border-right: 1px solid #999;
+border-top: 10px solid #059867;
+border-bottom: 10px solid #059867;
+background-color: #FFFFFF;*/
+
+
+
+/*site style overrides*/
+
+/*header box override*/
+#s5_header_area_inner2 {
+  -moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+background: transparent;
+border: transparent;
+margin-bottom: 14px;
+margin-left: 7px;
+margin-right: 7px;
+}
+
+#s5_header_wrap {
+  background:transparent;
+  !important;
+}
+
+/*article style override*/
+
+#s5_component_wrap {
+-moz-border-radius:0px;
+-webkit-border-radius:0px;
+border-radius:0px !important;
+background:#FFFFFF;
+border:solid 0px #FFFFFF;
+border-top:solid 10px #059867;
+box-shadow: 1px 0 0 0 #999;
+/*border-top:solid 10px #604C3B;*/
+/*border-right:solid 1px #999;*/
+margin-bottom:14px;
+margin-left:7px;
+margin-right:7px;
+}
+
+/*footer style override*/
+
+#s5_footer_area_inner2 {
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+background: transparent;
+border: solid 0px #FFFFFF;
+border-top:double 5px #999;
+margin-bottom: 14px;
+margin-left: 7px;
+margin-right: 7px;
+margin-top:20px;
+}
+/*Transparency Button overlay for Learn More About SID*/
+
+div.tableclick {
+    position: relative;
+}
+ 
+div.tableclick a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+/*The above fix was from http://www.digitalskydesign.com/how-to-make-an-entire-div-a-link-using-css/ */
+
+/*Don't edit this !!! This controls menu layout! See SwMenuFree module for the style, font, etc. of menu. Please note that if you cange the Menu widths for each menu item, the overall td_menu_wrap width will be changed. If you do this, you need to change the #td_menu_wrap { left: ___px} value. The value you should change it to is ("body width of page"-"td_menu_wrap")/2.*/
+
+#menu_wrap {
+  width:100%;
+  margin-top:25px;
+  margin-bottom:50px;
+}
+
+#swmenu {
+  width:100%;
+}
+swmenu {
+  width:100%;
+}
+
+swmenu.tbody {
+  width:100%;
+}
+
+swmenu.tr {
+ width:100%;
+}
+swmenu.td {
+  width:16.6667%;
+}
+#menu101, #menu122, #menu131, #menu147, #menu156, #menu160 {
+  width:100%;
+}
+
+
+
+
+
+
+    
+
+/* The following is code that failed in some way, but could be useful in the future.*/
+/*#td_menu_wrap ul li ul {z-index:10;!important;}*/
+
+/*#s5_menu_outer_wrap {
+height:20px;
+overflow:hidden;
+!important;
+}
+#s5_md_outerwrap h3 {color:#000000 !important;}*/
+
+
+
+/**/
+
+/**#td_menu_wrap { 
+  margin: 0px auto 0px auto; 
+   width: 610px; 
+   height: 44px;
+  display:block;
+  !important;
+} 
+*/
+
+/*#s5_menu_wrap { margin-left: 20%; margin-right: 20%;
+ }*/
+/*#s5_menu_wrap {height:20px;
+}
+#s5_menu_wrap {width:600px;
+}
+#s5_nav li a {font-size: 9pt !important;}
+#s5_nav li {height: 20px; !important;}
+
+#s5_nav li a {
+  padding: 0 0 0 0; 
+   font-size: 9pt; 
+   font-weight: normal; 
+   color: #FFFFFF; 
+   background-color: transparent; 
+   text-align: center; 
+!important;
+}
+
+#s5_menu_wrap a {
+   padding: 40px 30 20 30; 
+   font-size: .8em; 
+   font-weight: normal; 
+   color: #FFFFFF; 
+   background-color: transparent; 
+   text-align: center; 
+!important;
+}
+#s5_menu_wrap { 
+   margin: auto auto auto auto; 
+  !important; 
+}
+#s5_nav {height: 20px !important;}
+
+#s5_nav li a {font-size: 90% !important;}
+
+
+
+/*#s5_menu_wrap { max-width:1024px !important;}
+
+#s5_menu_wrap { max-height:44px !important;}
+
+#s5_nav li a {font-size:.9em !important;}
+
+#s5_nav li {line-height:100% !important;}
+
+@media screen and (min-width:580px) and (max-width: 970px){
+  #s5_menu_wrap {
+	font-size:.9em;
+	!important;
+  }
+  #s5_menu_wrap {max-height:44px !important;}
+  #s5_menu_wrap {max-width:800px !important;}
+  #s5_nav li {line-height:100% !important;}
+  #s5_nav li a {font-size:.9em !important;}
+}*/
+
+
+/*@media screen and (min-width:0px) and (max-width: 580){  
+#s5_logo_module {
+background:  #0c1a3e  URL(../images/personal/your_image.png) no-repeat bottom right !important;
+color:#fff !important;
+min-height:200px !important;
+margin:0em 10px 0 10px !important;
+}
+}*/
+
+/*body {
+    font-size: 1em !important;
+}
+*/
+/*#s5_menu_wrap {font-size:9pt}*/
+
+
+
+
+    
+    
+
+
